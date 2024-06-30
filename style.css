@@ -1,0 +1,33 @@
+.root{
+    margin: auto;
+    height: 200px;
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(160deg, green, lightgreen, orange, cadetblue, red);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1, h3{
+    font-family: "poppins", sans-serif;
+}
+
+#cats{
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border: none;
+    font-size: 1.5em;
+    font-family: "poppins", sans-serif;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: crimson;
+    cursor: pointer;
+}
